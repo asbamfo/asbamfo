@@ -36,7 +36,7 @@ st.set_page_config(
 #Joshua Kwaku Mensah - 22257672
 #""")
 
-Logo = Image.open("C:/Users/HP/Documents/MSBA/MSBA_Sem_2/Supervised_Machine_Learning/Assignment/telco_logo.jpg")
+Logo = Image.open("telco_logo.jpg")
 st.image(Logo, caption="", width=150)
 
 # Initialize session state for data persistence across pages
